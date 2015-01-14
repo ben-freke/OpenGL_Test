@@ -38,9 +38,9 @@ int main(void)
 
 	static const GLfloat verts[] = {
 		//X, Y, Z
-		-0.8f, -0.8f, 0.0f,
-		0.8f, -0.8f, 0.0f,
-		0.0f, 0.8f, 0.0f
+		-0.5f, -0.5f, 0.0f,
+		0.5f, -0.5f, 0.0f,
+		0.0f, 0.5f, 0.0f
 
 	};
 	//This is an array of vertificies
@@ -66,6 +66,7 @@ int main(void)
 		glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 0, (void*)0);
 
 		glDrawArrays(GL_TRIANGLES, 0, 3);
+		
 
 		glDisableVertexAttribArray(0);
 		/* Swap front and back buffers */
