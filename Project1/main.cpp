@@ -2,6 +2,8 @@
 #include <GLFW/glfw3.h>
 #include <stdio.h>
 
+//this is a test 
+
 class Triangle{
 public:
 	GLuint vaoid;
