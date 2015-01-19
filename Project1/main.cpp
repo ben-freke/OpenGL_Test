@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 //this is a test 5/3
-// (C) Group 16
+// (C) Group 16 - Hello
 
 class Triangle{
 public:
