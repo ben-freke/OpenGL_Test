@@ -2,7 +2,7 @@
 #include <GLFW/glfw3.h>
 #include <stdio.h>
 
-//this is a test 
+//this is a test 2
 // (C) Group 16
 
 class Triangle{
