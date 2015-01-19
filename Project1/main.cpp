@@ -2,7 +2,7 @@
 #include <GLFW/glfw3.h>
 #include <stdio.h>
 
-//this is a test 
+//this is a test 5/3
 // (C) Group 16
 
 class Triangle{
@@ -15,7 +15,7 @@ public:
 		vaoid = 6;
 		glGenVertexArrays(1, &vaoid);
 		glBindVertexArray(vaoid);
-		//Tells OpenGL that we are going to be using the vaoid array
+		//Tells OpenGL that we are going to be using the vaoid array//
 
 		static const GLfloat verts[] = {
 			//X, Y, Z
